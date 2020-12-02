@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:background="#8F009614"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="This is my first app"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toast"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/material_on_primary_emphasis_medium"
+        app:backgroundTintMode="screen" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text view"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/material_on_primary_emphasis_medium"
+        app:backgroundTintMode="screen" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intent"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/material_on_primary_emphasis_medium"
+        app:backgroundTintMode="screen" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="linear layout"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/material_on_primary_emphasis_medium"
+        app:backgroundTintMode="screen" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/material_on_primary_emphasis_medium"
+        app:backgroundTintMode="screen" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/material_on_primary_emphasis_medium"
+        app:backgroundTintMode="screen" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
